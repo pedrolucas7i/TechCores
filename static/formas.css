@@ -1,0 +1,30 @@
+.quadrado15 {
+  padding: 1rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.quadrado20 {
+  padding: 1rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.retangulo20 {
+  padding: 1rem;
+  width: 20rem;
+  height: 10rem;
+}
+.retangulo25 {
+  padding: 1rem;
+  width: 25rem;
+  height: 15rem;
+}
+.retangulo50 {
+  padding: 1rem;
+  width: 50rem;
+  height: 40vh;
+}
+.round {
+  border-radius: 17.5px;
+}

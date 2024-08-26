@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#background {
+  background-image: url("../IMG/start/bg-nvidia.jpg");
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+}
+
+#bem-vindo {
+  position: absolute;
+  top: 60vh;
+  left: 70vw;
+}
+
+.section-menu {
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.section-menu > img {
+  width: 12rem;
+}
+
+.menu {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.menu > a {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: solid;
+  color: white;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.em-linha {
+  display: flex;
+  width: 100%;
+}
+
+.div-image {
+  width: 35%;
+}
+
+.completar-espaco {
+  width: max-content;
+}
+
+.top-border {
+  border-top: 0.5vw black solid;
+}
+
+.alinhar-text1 {
+  margin-top: 5.7rem;
+  margin-left: 10vw;
+}
+
+.retangulo-div {
+  padding: 1rem;
+  width: 50rem;
+  height: 40vh;
+}
+
+.retangulo-div > p {
+  margin-top: 6.2rem;
+  margin-left: 4rem;
+  width: 80%;
+  text-align: justify;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 600px) {
+  #bem-vindo {
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .section-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-menu > img {
+    width: 8rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu > a {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Responsividade para telas médias */
+@media (min-width: 601px) and (max-width: 1400px) {
+  #bem-vindo {
+    top: 55vh;
+    left: 65vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .retangulo-div {
+    width: 37.5rem;
+    height: 35vh;
+  }
+  .retangulo-div > p {
+    margin-top: 0.8rem;
+    margin-left: 2.2rem;
+  }
+}
+
+/* Responsividade para telas grandes */
+@media (min-width: 1401px) {
+  #bem-vindo {
+    top: 60vh;
+    left: 70vw;
+  }
+}

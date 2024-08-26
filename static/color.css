@@ -1,0 +1,15 @@
+.bg-trasparent {
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.bg-claro {
+  background-color: rgba(237, 247, 247, 0.959);
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+.text-white {
+  color: whitesmoke;
+}
